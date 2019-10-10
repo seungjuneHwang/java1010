@@ -16,6 +16,11 @@ public class TestClass2 {
 		this.tel = tel;
 	}
 	
+	// public 메소드를 통해 tel 변수의 값을 클래스 외부로 전달
+	public String getTel() {
+		return tel;
+	}
+	
 	// tel변수를 화면 출력
 	public void printTel() {
 		System.out.println(tel);
